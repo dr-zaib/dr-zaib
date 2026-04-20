@@ -41,12 +41,12 @@ End-to-end unsupervised ML pipeline for real-time anomaly detection on high-valu
 `Python` `Scikit-learn` `TensorFlow` `PyTorch` `SHAP` `Streamlit` `Docker` `MLflow`
  
 ### 🔒 Digital Twin: MATLAB/Simulink → Python Migration
-*Defense sector client | 2024*  
+*Industrial sector client | 2024*  
 Ported legacy numerical simulation models to a modular Python framework. Final system achieved **< 2% error** vs original MATLAB output, with significantly faster computation and full cloud-deployability.  
 `Python` `Simulink` `FastAPI` `Docker`
  
 ### 🔒 Failure Forecasting on Multi-Plant Industrial Data
-*Industrial client | 2024*  
+*Industrial-Energy client | 2024*  
 Supervised ML models on multivariate time-series data (2019–2024) across 3 plants for failure prediction with 48–72h lead time.  
 `Python` `Scikit-learn` `TensorFlow` `SHAP` `PyTorch` `SQL`
  
@@ -94,6 +94,9 @@ Contributed to the technical sections of 3 public tenders in 2–3 months, trans
  
 **Solution Architecture**  
 Designed the end-to-end architecture of a Bill Verification module for energy management — from data ingestion and OCR pipeline to auditing engine, regulatory compliance checks, and workflow UI.
+
+**Technical Proposal Writing**
+Authored end-to-end technical proposals for enterprise clients, covering solution architecture, project phasing, effort estimation, and commercial framing — including projects in the industrial and energy sectors.
  
 ---
  
