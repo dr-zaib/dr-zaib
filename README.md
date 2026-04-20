@@ -26,6 +26,7 @@ I work at the intersection of rigorous engineering and applied data science: I c
  
 **Languages:** Python · C++ · SQL · MATLAB/Simulink  
 **ML/AI:** PyTorch · TensorFlow · Scikit-learn · GANs · VAEs · SHAP · statsmodels  
+**AI-Augmented Workflow:** Cursor · LM Studio · LLM-based tooling for data analysis & development acceleration
 **Audio DSP:** Librosa · Pydub · Audiomentations · SuperCollider · Max/MSP  
 **MLOps & Cloud:** Docker · MLflow · FastAPI · CI/CD · AWS · GCP · REST APIs  
 **Data & Viz:** Pandas · NumPy · Plotly · Power BI · Streamlit · Tableau  
