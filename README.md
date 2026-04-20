@@ -41,7 +41,7 @@ End-to-end unsupervised ML pipeline for real-time anomaly detection on high-valu
 `Python` `Scikit-learn` `TensorFlow` `PyTorch` `SHAP` `Streamlit` `Docker` `MLflow`
  
 ### 🔒 Digital Twin: MATLAB/Simulink → Python Migration
-*Industrial sector client | 2024*  
+*Industrial client | 2024*  
 Ported legacy numerical simulation models to a modular Python framework. Final system achieved **< 2% error** vs original MATLAB output, with significantly faster computation and full cloud-deployability.  
 `Python` `Simulink` `FastAPI` `Docker`
  
@@ -61,7 +61,7 @@ Fine-tuned an existing forecasting model by integrating new data, cleaning, re-r
 `Python` `TensorFlow` `Streamlit` `Docker`
  
 ### 🔒 Bill Verification Module — Energy Management Platform
-*Internal product design | 2025*  
+*Internal product design - predictive maintenance client | 2025*  
 Designed end-to-end architecture for an AI-powered energy bill verification module. Covered the full stack: automated invoice ingestion (IMAP/OCR/PDF parsing), a central auditing engine to cross-check real consumption vs billed amounts, contract & tariff verification against ARERA regulatory data, anomaly flagging with configurable rule engine, and a workflow UI for exception management (approve/contest). Also scoped advanced features: forecasting, budget simulation, and contract optimization recommendations.  
 `Solution Architecture` `Python` `OCR` `FastAPI` `REST APIs` `SQL` `IoT Integration` `BPM`
  
