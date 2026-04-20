@@ -84,7 +84,7 @@ End-to-end ML pipeline for water quality classification, deployed as a container
  
 ## 🧩 Beyond Data Science
  
-I've also operated as a **technical bridge between engineering and business** — a role that emerged naturally from working in a product company:
+I've also operated as a technical bridge between engineering and business — a role that emerged naturally from working at the intersection of consulting and product, where translating technical complexity into business value is part of the job.
  
 **Pre-Sales Technical Consulting**  
 Represented the company as technical referent in pre-sale meetings — both in Italy and internationally — presenting the full stack of our proprietary platform (IoT, CMMS, AMS, Energy Management, Data Science & AI for predictive maintenance) to technical and non-technical stakeholders.
