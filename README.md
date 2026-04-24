@@ -45,18 +45,30 @@ End-to-end unsupervised ML pipeline for real-time anomaly detection on high-valu
 Ported legacy numerical simulation models to a modular Python framework. Final system achieved **< 2% error** vs original MATLAB output, with significantly faster computation and full cloud-deployability.  
 `Python` `Simulink` `FastAPI` `Docker`
  
-### 🔒 Failure Forecasting on Multi-Plant Industrial Data
-*Industrial-Energy client | 2024*  
-Supervised ML models on multivariate time-series data (2019–2024) across 3 plants for failure prediction with 48–72h lead time.  
-`Python` `Scikit-learn` `TensorFlow` `SHAP` `PyTorch` `SQL`
+### 🔒 Predictive Maintenance — Generalized Failure Forecasting on CHP Plants
+*Industrial-Energy client | 2025*  
+End-to-end PoC for predictive maintenance on 3 cogeneration plants (CHP), with the goal of building a generalized model scalable across different industrial sites. Sole technical contributor on the project.
+ 
+- Processed 4+ years of multivariate time-series data (process variables, alarm logs, meteorological data from NASA POWER) across 3 plants — 76% retained post-cleaning
+- Engineered features from 16 variables (12 process + 3 meteo + alarm label) and mapped 1,208 alarm events to process windows
+- Developed 1 generalized scalable model + 2 expert rules + 3 plant-specific classifiers
+- Integrated SHAP-based explainability to identify the most influential process variables per plant (oil temperature, combustion chamber temperature, atmospheric pressure)
+- Industrialized the solution on production infrastructure with fixed-window sampling logic for stability and integrability
+- Offline model: **8/18 alarm events intercepted**; production model: **5/18** — a deliberate trade-off between adaptivity and robustness, and an honest reflection of the challenges inherent in imbalanced, partially unreliable industrial alarm data. The PoC confirmed feasibility and surfaced clear directions for improvement (maintenance data integration, labeling refinement, per-plant tuning).
+`Python` `Scikit-learn` `PyTorch` `SHAP` `Time-Series Analysis` `Explainable AI`
+
+### 🔒 Exploratory Data Analysis — Hydroelectric Energy Production
+*Energy sector client | 2025*  
+In-depth EDA on historical production data from hydroelectric plants. Analysis covered data quality assessment, seasonality, trend decomposition, correlation between hydrological variables and energy output, and identification of anomalous patterns — providing the analytical foundation for subsequent forecasting models.  
+`Python` `Pandas` `Matplotlib` `Plotly` `Statistical Analysis`
  
 ### 🔒 Production Line Waste Optimization
-*Food manufacturing client | 2024*  
+*Food manufacturing client | 2024-2025*  
 ML-based optimization of production waste across multiple industrial assets (rolling mill, sheeter, oven). Took over the project mid-way, improved the pipeline, and delivered a forecasting model using Random Forest.  
 `Python` `Scikit-learn` `Pandas`
  
 ### 🔒 Flood Wave Forecasting — Fine-tuning & Production Deployment
-*Energy sector client | 2024*  
+*Energy sector client | 2024-2025*  
 Fine-tuned an existing forecasting model by integrating new data, cleaning, re-running EDA, and retraining with full validation/test cycle. Deployed to production with dashboards for 12h, 24h, and 48h forecasting horizons. **Result: client renewed the license.**  
 `Python` `TensorFlow` `Streamlit` `Docker`
  
